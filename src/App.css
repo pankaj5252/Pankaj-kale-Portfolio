@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,13 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.credits {
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.credits span {
+  font-weight: bold;
+  color: #c1111c;
 }
