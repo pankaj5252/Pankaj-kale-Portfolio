@@ -36,6 +36,11 @@
     transform: rotate(360deg);
   }
 } */
+#root{
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  /* background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply; */
+}
 .credits {
   padding-top: 5px;
   font-size: 15px;
@@ -43,5 +48,11 @@
 
 .credits span {
   font-weight: bold;
+  color: #c1111c;
+}
+.titlefont{
+  font-size: 50px;
+  font-family: 'Monoton', cursive;
+  text-decoration: underline;
   color: #c1111c;
 }

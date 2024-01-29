@@ -10,10 +10,12 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
 import Services from './components/Services';
+import LoadingScreen from './components/LoadingScreen'
 
 function App() {
   return (
     <>
+      <LoadingScreen />
       <Router>
         <MyNav />
         <Routes>
