@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.fw-bold {
+.fw-bold{
   font-size: 28px !important;
 }
 
@@ -46,15 +46,13 @@
   }
 
   .me-auto {
-    margin-left: 0px !important;
+    margin-left:0px!important;
   }
-
-  #hero h2 {
-    margin-top: 15px !important;
+  #hero h2{
+    margin-top:15px !important;
     font-size: 18px !important;
   }
 }
-
 .me-auto {
   margin-left: 580px;
 }
@@ -69,10 +67,10 @@
 }
 
 /* HOME */
-.boyImg {
+.boyImg{
   margin-top: 13px;
   height: 550px;
-  width: 500px;
+  width:560px ;
 }
 
 #hero {
@@ -85,16 +83,14 @@
 }
 
 @media (max-width: 992px) {
-  #hero {
+  #hero{
     height: 33vh;
   }
-
-  .boyImg {
+  .boyImg{
     height: 450px;
-    width: 100%;
+    width:100%;
   }
-
-  #hero .container {
+  #hero .container{
     margin-top: 50px !important;
   }
 }

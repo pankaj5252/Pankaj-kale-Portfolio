@@ -23,7 +23,7 @@ const About = () => {
                 height={400}
                 src={"../../public/assets/pk1.jpg"}
               /> */}
-               <img className="img-fluid" src="../../public/assets/pk1.jpg" alt=""/>
+              <img className="img-fluid" src="/assets/pk1.jpg" alt="" />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content animated-element1">
               <h3>Full Stack Developer &amp; UI/UX Designer</h3>
