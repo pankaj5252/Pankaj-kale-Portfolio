@@ -7,13 +7,13 @@ import Nav from "react-bootstrap/Nav";
 const MyNav = () => {
   return (
     <>
-      <Navbar expand="lg">
+      <Navbar expand="lg" className="p-0">
         <Container>
-          <Navbar.Brand className="text-danger fw-bold">
-            Pankaj Kale
+          <Navbar.Brand className="fs-1">
+            <span className="fs-1 navlogo">&#9884;</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse>
             <Nav className="me-auto">
               <NavLink className="nav-link" to="/">
                 Home

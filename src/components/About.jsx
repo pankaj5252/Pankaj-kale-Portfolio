@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const About = () => {
   return (
     <>
-      <section id="about" className="about p-3">
+      <section id="about" className="about">
         <div className="container" data-aos="fade-up">
           <div className="section-title text-center">
             <h2 className="titlefont font-weight-bold">About</h2>
@@ -18,11 +18,6 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-lg-4 text-center animated-element">
-              {/* <Card.Img
-                variant="top"
-                height={400}
-                src={"../../public/assets/pk1.jpg"}
-              /> */}
               <img className="img-fluid" src="/assets/pk1.jpg" alt="" />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content animated-element1">
