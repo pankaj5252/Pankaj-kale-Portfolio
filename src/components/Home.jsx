@@ -7,6 +7,7 @@ const Home = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6">
+          <span className="Star1">&#9733;</span>
             <section id="hero" className="d-flex align-items-center">
               <div
                 className="container d-flex flex-column align-items-center zoom-in animated-element-home"
@@ -22,6 +23,9 @@ const Home = () => {
             </section>
           </div>
           <div className="col-md-6 p-0 text-center">
+            <span className="Star">&#9733;</span>
+            <span className="Star2">&#9733;</span>
+            <span className="Star3">&#9733;</span>
             <img src="assets/boy1.png" className="boyImg" alt="" />
           </div>
         </div>

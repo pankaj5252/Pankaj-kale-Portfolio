@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.fw-bold{
+.fw-bold {
   font-size: 28px !important;
 }
 
@@ -46,13 +46,15 @@
   }
 
   .me-auto {
-    margin-left:0px!important;
+    margin-left: 0px !important;
   }
-  #hero h2{
-    margin-top:15px !important;
+
+  #hero h2 {
+    margin-top: 15px !important;
     font-size: 18px !important;
   }
 }
+
 .me-auto {
   margin-left: 580px;
 }
@@ -67,10 +69,10 @@
 }
 
 /* HOME */
-.boyImg{
+.boyImg {
   margin-top: 13px;
   height: 550px;
-  width:560px ;
+  width: 560px;
 }
 
 #hero {
@@ -83,14 +85,16 @@
 }
 
 @media (max-width: 992px) {
-  #hero{
+  #hero {
     height: 33vh;
   }
-  .boyImg{
+
+  .boyImg {
     height: 450px;
-    width:100%;
+    width: 100%;
   }
-  #hero .container{
+
+  #hero .container {
     margin-top: 50px !important;
   }
 }
@@ -155,6 +159,26 @@
     font-size: 18px;
     line-height: 24px;
   }
+
+  .Star {
+    margin-left: 50px;
+    margin-top: 150px !important;
+  }
+
+  .Star1 {
+    margin-left: 250px !important;
+    margin-top: 0px !important;
+  }
+
+  .Star2 {
+    margin-left: 350px !important;
+    margin-top: 290px !important;
+  }
+
+  .Star3 {
+    margin-left: 350px !important;
+  }
+
 }
 
 @keyframes zoomIn {
@@ -169,6 +193,36 @@
 
 .zoom-in {
   animation: zoomIn 1s ease-in-out;
+}
+
+.Star {
+  margin-top: 300px;
+  color: #962fbf;
+  font-size: 40px;
+  position: absolute;
+}
+
+.Star1 {
+  margin-left: 200px;
+  color: rgb(11, 215, 218);
+  margin-top: 150px;
+  font-size: 40px;
+  position: absolute;
+}
+
+.Star2 {
+  color: darkblue;
+  margin-left: 200px;
+  margin-top: 550px;
+  font-size: 40px;
+  position: absolute;
+}
+
+.Star3 {
+  color: red;
+  margin-left: 500px;
+  font-size: 40px;
+  position: absolute;
 }
 
 /* ABOUT */
@@ -206,11 +260,11 @@
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 40px;
-  border-radius: 50px;
+  border-radius: 0px 50px !important;
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #c1111c;
+  background: #ea0c1b !important;
 }
 
 .btn-about:hover {
