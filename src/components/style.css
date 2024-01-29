@@ -1,3 +1,44 @@
+/* NAV */
+.header-social-links {
+  display: flex !important;
+  font-size: 22px;
+}
+
+.twitter{
+  color: #00acee !important;
+  margin-right: 10px;
+}
+
+.instagram{
+  color: #962fbf !important;
+  margin-right: 10px;
+}
+
+.linkedin{
+  margin-right: 10px;
+  color: #0A66C2 !important;
+
+}
+@media (max-width: 992px) {
+  .header-social-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main {
+    margin-left: 10px;
+  }
+  .me-auto{
+    margin-left:0px !important;
+  }
+}
+.me-auto{
+  margin-left:360px;
+}
+.nav-link{
+  font-weight: 650 !important;
+}
 /* HOME */
 #hero {
     width: 100%;

@@ -29,6 +29,23 @@ const MyNav = () => {
                 Contact
               </NavLink>
             </Nav>
+            <div className="header-social-links">
+              <NavLink className="twitter">
+                <i className="fa fa-twitter"></i>
+              </NavLink>
+              <NavLink
+                to="https://instagram.com/pankaj_kale_96k?igshid=MzNlNGNkZWQ4Mg== "
+                className="instagram"
+              >
+                <i className="fa-brands fa-instagram"></i>
+              </NavLink>
+              <NavLink
+                to="https://www.linkedin.com/in/pankaj-kale-pk5151"
+                className="linkedin"
+              >
+                <i className="fa fa-linkedin"></i>
+              </NavLink>
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>
