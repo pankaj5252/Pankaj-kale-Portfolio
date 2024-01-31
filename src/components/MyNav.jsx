@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
@@ -30,7 +29,9 @@ const MyNav = () => {
               <NavLink className="nav-link" to="/contact">
                 Contact
               </NavLink>
-              <button className="btn nav-link">DarkMode</button>
+              <button className="btn nav-link">
+                DarkMode
+              </button>
             </Nav>
           </Navbar.Collapse>
         </Container>
