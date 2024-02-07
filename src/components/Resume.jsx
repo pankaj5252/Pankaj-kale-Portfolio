@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Resume = () => {
   return (
@@ -98,7 +99,7 @@ const Resume = () => {
                 </p>
                 <p>
                   Click here :-{" "}
-                  <a href="https://flixcomshow.netlify.app/">Live Demo</a>
+                  <Link to="https://flixcomshow.netlify.app/">Live Demo</Link>
                 </p>
               </div>
               <div className="resume-item animated-element1">
@@ -110,9 +111,9 @@ const Resume = () => {
                 </p>
                 <p>
                   Click here :-{" "}
-                  <a href="https://ecomprojectbypankaj.netlify.app/">
+                  <Link to="https://ecomprojectbypankaj.netlify.app/">
                     Live Demo
-                  </a>
+                  </Link>
                 </p>
               </div>
               <div className="resume-item animated-element1">
@@ -124,7 +125,7 @@ const Resume = () => {
                 </p>
                 <p>
                   Click here :-{" "}
-                  <a href="https://kalepankaj.netlify.app/">Live Demo</a>
+                  <Link to="https://kalepankaj.netlify.app/">Live Demo</Link>
                 </p>
               </div>
               <div className="resume-item animated-element1">
@@ -143,77 +144,45 @@ const Resume = () => {
                 </p>
                 <p>
                   Click here :-{" "}
-                  <a href="https://pankajkalephotographyy.000webhostapp.com/">
+                  <Link to="https://pankajkalephotographyy.000webhostapp.com/">
                     Live Demo
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
-            <div className="col-lg-12 animated-element3">
+            <div className="col-lg-12 pb-3  animated-element3">
               <h3 className="resume-title text-center">Skill's</h3>
-              <div className="card shadow" width="9.5rem">
+              <div className="card shadow" style={{ width: 150, height: 150 }}>
                 <img
                   className="card-img-top"
                   alt="A"
-                  src="../../assets/angular.png"
+                  src="/assets/react.png"
                 />
               </div>
-              <div className="card shadow" width="9.5rem">
+              <div className="card shadow" style={{ width: 150, height: 150 }}>
+                <img className="card-img-top" alt="A" src="/assets/node.png" />
+              </div>
+              <div className="card shadow" style={{ width: 150, height: 150 }}>
+                <img className="card-img-top" alt="A" src="/assets/mango.png" />
+              </div>
+              <div className="card shadow" style={{ width: 150, height: 150 }}>
+                <img className="card-img-top" alt="A" src="/assets/api.png" />
+              </div>
+              <div className="card shadow" style={{ width: 150, height: 150 }}>
+                <img className="card-img-top" alt="A" src="/assets/sql.png" />
+              </div>
+              <div className="card shadow" style={{ width: 150, height: 150 }}>
+                <img className="card-img-top  p-2 mt-4" alt="A" src="/assets/js.png" />
+              </div>
+              <div className="card shadow" style={{ width: 150, height: 150 }}>
                 <img
-                  className="card-img-top"
+                  className="card-img-top mt-3"
                   alt="A"
-                  src="../../assets/node.png"
+                  src="/assets/tailwind.png"
                 />
               </div>
-              <div className="card shadow" width="9.5rem">
-                <img
-                  className="card-img-top"
-                  alt="A"
-                  src="../../assets/api.png"
-                />
-              </div>
-              <div className="card shadow" width="9.5rem">
-                <img
-                  className="card-img-top"
-                  alt="A"
-                  src="../../assets/js.png"
-                />
-              </div>
-              <div className="card shadow" width="9.5rem">
-                <img
-                  className="card-img-top"
-                  alt="A"
-                  src="../../assets/jq.png"
-                />
-              </div>
-              <div className="card shadow" width="9.5rem">
-                <img
-                  className="card-img-top"
-                  alt="A"
-                  src="../../assets/sql.png"
-                />
-              </div>
-              <div className="card shadow" width="9.5rem">
-                <img
-                  className="card-img-top"
-                  alt="A"
-                  src="../../assets/bosstrap.jpg"
-                />
-              </div>
-              <div className="card shadow" width="9.5rem">
-                <img
-                  className="card-img-top"
-                  alt="A"
-                  src="../../assets/html.png"
-                />
-              </div>
-              <div className="text-center">
-                <a
-                  className="btn-about"
-                  href="../../assets/Pankaj new update.pdf"
-                >
-                  Download Resume
-                </a>
+              <div className="card shadow" style={{ width: 150, height: 150 }}>
+                <img className="card-img-top" alt="A" src="/assets/html.png" />
               </div>
             </div>
           </div>

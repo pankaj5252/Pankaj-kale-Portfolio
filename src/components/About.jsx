@@ -18,7 +18,7 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-lg-4 text-center animated-element">
-              <img className="img-fluid" src="/assets/pk1.jpg" alt="" />
+              <img className="img-fluid rounded-lg" src="/assets/pk1.jpg" alt="" />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content animated-element1">
               <h3>Full Stack Developer &amp; UI/UX Designer</h3>
@@ -80,8 +80,11 @@ const About = () => {
                 teamwork, and a dedication to excellence.
               </p>
               <div className="text-center">
-                <NavLink to="/resume" className="btn-about">
-                  Resume
+                <NavLink
+                  to="/resume"
+                  className="relative btn-about py-2 px-8 text-base font-bold nded-full overflow-hidden bg-red text-white rounded-full transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0"
+                >
+                  About Me
                 </NavLink>
               </div>
             </div>

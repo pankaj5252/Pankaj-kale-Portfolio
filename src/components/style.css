@@ -1,7 +1,7 @@
 /* NAV && FOOTER*/
 
 .me-auto {
-  margin-left: 600px;
+  margin-left: 700px;
 }
 
 .nav-link {
@@ -176,22 +176,22 @@
   }
 
   .Star {
-    margin-left: 50px;
+    margin-left: -100px;
     margin-top: 150px !important;
   }
 
   .Star1 {
-    margin-left: 250px !important;
+    margin-left: 150px !important;
     margin-top: 0px !important;
   }
 
   .Star2 {
-    margin-left: 350px !important;
+    margin-left: 150px !important;
     margin-top: 290px !important;
   }
 
   .Star3 {
-    margin-left: 350px !important;
+    margin-left: 150px !important;
   }
 
 }
@@ -235,7 +235,7 @@
 
 .Star3 {
   color: red;
-  margin-left: 500px;
+  margin-left: 100px;
   font-size: 40px;
   position: absolute;
 }

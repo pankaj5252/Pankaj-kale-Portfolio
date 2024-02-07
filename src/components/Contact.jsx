@@ -14,25 +14,22 @@ const Contact = () => {
               with us, we're here to listen.
             </p>
           </div>
-          <div>
-
-            
-          </div>
+          <div></div>
           <div className="row mt-5">
             <div className="col-lg-4">
               <div className="info">
                 <div className="address">
-                  <i className="bi bi-geo-alt"></i>
+                <i class="fa-solid fa-location-dot"></i>
                   <h4>Location:</h4>
                   <p>Kautha Newasa Ahmednagar 414606</p>
                 </div>
                 <div className="email">
-                  <i className="bi bi-envelope"></i>
+                <i class="fa-solid fa-envelope"></i>
                   <h4>Email:</h4>
                   <p>pbkale25@gamil.com</p>
                 </div>
                 <div className="phone">
-                  <i className="bi bi-phone"></i>
+                <i class="fa-solid fa-phone"></i>
                   <h4>Call:</h4>
                   <p>+91 9021373247</p>
                 </div>
@@ -45,7 +42,7 @@ const Contact = () => {
                     <input
                       type="text"
                       name="name"
-                      className="form-control"
+                      className="form-control bg-transparent"
                       id="name"
                       placeholder="Your Name"
                       required
@@ -54,7 +51,7 @@ const Contact = () => {
                   <div className="col-md-6 form-group mt-3 mt-md-0">
                     <input
                       type="email"
-                      className="form-control"
+                      className="form-control bg-transparent"
                       name="email"
                       id="email"
                       placeholder="Your Email"
@@ -65,7 +62,7 @@ const Contact = () => {
                 <div className="form-group mt-3">
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control bg-transparent"
                     name="subject"
                     id="subject"
                     placeholder="Subject"
@@ -74,7 +71,7 @@ const Contact = () => {
                 </div>
                 <div className="form-group mt-3">
                   <textarea
-                    className="form-control"
+                    className="form-control bg-transparent"
                     name="message"
                     rows="5"
                     placeholder="Message"
@@ -89,7 +86,9 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="text-center">
-                  <button type="submit" className="btn btn-about mt-0">Send Message</button>
+                  <button type="submit" className="btn btn-about mt-0">
+                    Send Message
+                  </button>
                 </div>
               </form>
             </div>

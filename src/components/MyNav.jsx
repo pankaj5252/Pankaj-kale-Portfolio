@@ -29,9 +29,6 @@ const MyNav = () => {
               <NavLink className="nav-link" to="/contact">
                 Contact
               </NavLink>
-              <button className="btn nav-link">
-                DarkMode
-              </button>
             </Nav>
           </Navbar.Collapse>
         </Container>
