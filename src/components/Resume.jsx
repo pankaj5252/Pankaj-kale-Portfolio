@@ -1,9 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const Resume = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
+      <div id="top"></div>
       <section id="resume" className="resume p-2">
         <div className="container" data-aos="fade-up">
           <div className="section-title text-center">
@@ -153,11 +158,7 @@ const Resume = () => {
             <div className="col-lg-12 pb-3  animated-element3">
               <h3 className="resume-title text-center">Skill's</h3>
               <div className="card shadow" style={{ width: 150, height: 150 }}>
-                <img
-                  className="card-img-top"
-                  alt="A"
-                  src="/assets/react.png"
-                />
+                <img className="card-img-top" alt="A" src="/assets/react.png" />
               </div>
               <div className="card shadow" style={{ width: 150, height: 150 }}>
                 <img className="card-img-top" alt="A" src="/assets/node.png" />
@@ -172,7 +173,11 @@ const Resume = () => {
                 <img className="card-img-top" alt="A" src="/assets/sql.png" />
               </div>
               <div className="card shadow" style={{ width: 150, height: 150 }}>
-                <img className="card-img-top  p-2 mt-4" alt="A" src="/assets/js.png" />
+                <img
+                  className="card-img-top  p-2 mt-4"
+                  alt="A"
+                  src="/assets/js.png"
+                />
               </div>
               <div className="card shadow" style={{ width: 150, height: 150 }}>
                 <img

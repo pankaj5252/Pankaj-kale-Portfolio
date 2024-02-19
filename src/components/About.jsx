@@ -1,8 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useEffect } from "react";
 // import { Card } from "react-bootstrap";
 
 const About = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <section id="about" className="about">
@@ -18,7 +23,11 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-lg-4 text-center animated-element">
-              <img className="img-fluid rounded-lg" src="/assets/pk1.jpg" alt="" />
+              <img
+                className="img-fluid rounded-lg"
+                src="/assets/pk1.jpg"
+                alt=""
+              />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content animated-element1">
               <h3>Full Stack Developer &amp; UI/UX Designer</h3>
@@ -35,7 +44,7 @@ const About = () => {
                     </li>
                     <li>
                       <i className="bi bi-rounded-right"></i>{" "}
-                      <strong>Website:</strong> www.pankajkale.com
+                      <strong>Website:</strong> https://www.pankajkale.tech
                     </li>
                     <li>
                       <i className="bi bi-rounded-right"></i>{" "}
