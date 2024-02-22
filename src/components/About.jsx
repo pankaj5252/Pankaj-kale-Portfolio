@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
-// import { Card } from "react-bootstrap";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
-const About = () => {
+const About = (prop) => {
   useEffect(() => {
-    // Scroll to the top of the page when the component mounts
     window.scrollTo(0, 0);
   }, []);
+  console.log(prop);
   return (
     <>
       <section id="about" className="about">
@@ -23,11 +23,12 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-lg-4 text-center animated-element">
-              <img
+              <LazyLoadImage
                 className="img-fluid rounded-lg"
-                src="/assets/pk1.jpg"
                 alt=""
+                src={prop.data} // use normal <img> attributes as props
               />
+              {/* <img className="img-fluid rounded-lg" src={prop.data} alt="" /> */}
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content animated-element1">
               <h3>Full Stack Developer &amp; UI/UX Designer</h3>

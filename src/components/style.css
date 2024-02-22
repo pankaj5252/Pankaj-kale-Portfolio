@@ -196,7 +196,7 @@
 
 }
 
-@keyframes zoomIn {
+/* @keyframes zoomIn {
   from {
     transform: scale(0.5);
   }
@@ -204,7 +204,7 @@
   to {
     transform: scale(1);
   }
-}
+} */
 
 .zoom-in {
   animation: zoomIn 1s ease-in-out;
@@ -285,7 +285,7 @@
 .btn-about:hover {
   color: white;
 }
-
+/* 
 @keyframes example {
   from {
     right: 100px;
@@ -294,7 +294,7 @@
   to {
     right: 0;
   }
-}
+} */
 
 .animated-element {
   position: relative;
@@ -303,7 +303,7 @@
   animation-fill-mode: backwards;
 }
 
-@keyframes example2 {
+/* @keyframes example2 {
   from {
     left: 100px;
   }
@@ -311,7 +311,7 @@
   to {
     left: 0;
   }
-}
+} */
 
 .animated-element1 {
   position: relative;
@@ -447,10 +447,10 @@
   fill: #c1111c;
 }
 
-@keyframes example {
+/* @keyframes example {
   from {top: 100px;}
   to {top: 0px;}
-}
+} */
 
 .animated-element {
   position: relative;
@@ -529,11 +529,11 @@
   margin-top: 5px;
 }
 
-
+/* 
 @keyframes example {
   from {right: 100px;}
   to {right: 0px;}
-}
+} */
 
 .animated-element {
   position: relative;
@@ -543,10 +543,10 @@
   animation-fill-mode: backwards;
 }
 
-@keyframes example1 {
+/* @keyframes example1 {
   from {left: 100px;}
   to {left: 0px;}
-}
+} */
 
 .animated-element1 {
   position: relative;
@@ -554,11 +554,11 @@
   animation-duration: 3s;
   animation-fill-mode: backwards;
 }
-
+/* 
 @keyframes example3 {
   from {top: 100px;}
   to {top: 0px;}
-}
+} */
 
 .animated-element3 {
   position: relative;
@@ -698,7 +698,7 @@
 .contact .php-email-form button[type=submit]:hover {
   background: #c1111c;
 }
-
+/* 
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -707,4 +707,4 @@
   100% {
     transform: rotate(360deg);
   }
-}
+} */
