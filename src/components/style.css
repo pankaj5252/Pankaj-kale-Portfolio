@@ -1,4 +1,11 @@
 /* NAV && FOOTER*/
+.github {
+  height: 50px;
+  width: 50px;
+  padding: 2px;
+  padding-left: 5px;
+  margin-right: 5px;
+}
 
 .me-auto {
   margin-left: 700px;
@@ -58,11 +65,11 @@
 
 @media (max-width: 992px) {
 
-  .navlogo{
+  .navlogo {
     padding: 15px;
     font-weight: bold;
   }
-  
+
   .header-social-links {
     width: 100%;
     display: flex;
@@ -86,8 +93,8 @@
 /* HOME */
 .boyImg {
   margin-top: 13px;
-  height: 550px;
-  width: 560px;
+  height: 580px;
+  width: 590px;
 }
 
 #hero {
@@ -196,20 +203,6 @@
 
 }
 
-/* @keyframes zoomIn {
-  from {
-    transform: scale(0.5);
-  }
-
-  to {
-    transform: scale(1);
-  }
-} */
-
-.zoom-in {
-  animation: zoomIn 1s ease-in-out;
-}
-
 .Star {
   margin-top: 300px;
   color: #962fbf;
@@ -285,6 +278,7 @@
 .btn-about:hover {
   color: white;
 }
+
 /* 
 @keyframes example {
   from {
@@ -521,7 +515,7 @@
   border: 2px solid #c1111c;
 }
 
-.card{
+.card {
   padding: 10px;
   height: 170px;
   float: left;
@@ -554,6 +548,7 @@
   animation-duration: 3s;
   animation-fill-mode: backwards;
 }
+
 /* 
 @keyframes example3 {
   from {top: 100px;}
@@ -568,8 +563,8 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .card{
-   margin-left: 15px !important;
+  .card {
+    margin-left: 15px !important;
   }
 }
 
@@ -698,6 +693,7 @@
 .contact .php-email-form button[type=submit]:hover {
   background: #c1111c;
 }
+
 /* 
 @keyframes animate-loading {
   0% {
