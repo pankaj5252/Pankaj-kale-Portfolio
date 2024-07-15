@@ -49,7 +49,8 @@ const About = () => {
                       </li>
                       <li>
                         <i className="bi bi-rounded-right"></i>{" "}
-                        <strong>Website:</strong> <Link to="https://www.pankajkale.tech" target="_blank">https://www.pankajkale.tech</Link>
+                        
+                       <strong>Website:</strong> <Link to="https://www.pankajkale.tech/" target="_blank">https://www.pankajkale.tech</Link>
                       </li>
                       <li>
                         <i className="bi bi-rounded-right"></i>{" "}

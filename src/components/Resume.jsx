@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Projects from "../projects";
 import { Slide, Zoom } from "react-awesome-reveal";
 import { Link as ScrollLink } from 'react-scroll';
+import { Link } from "react-router-dom";
 
 
 const Resume = () => {
@@ -132,6 +133,16 @@ const Resume = () => {
               </Slide>
             </div>
           </div>
+          <div className="d-flex flex-column align-items-center mt-4">
+            <a
+              href="../assets/resume.pdf"
+              className="h-10 px-6 font-semibold rounded-md bg-black text-white d-flex align-items-center justify-center text-decoration-none"
+              download
+            >
+              Download Resume
+            </a>
+          </div>
+
         </div>
       </section>
       <hr />

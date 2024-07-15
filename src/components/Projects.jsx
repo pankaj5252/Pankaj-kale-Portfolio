@@ -1,6 +1,7 @@
 import React from 'react'
 import AllProjects from "../projects";
 import { Zoom } from 'react-awesome-reveal';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   return (
@@ -23,11 +24,11 @@ const Projects = () => {
             <h3 className="text-lg font-bold mb-2">{project.Name}</h3>
             <p className="text-gray-700"><b className="text-red-500">Technologies</b>:<br />{project.Technologies}</p>
             <p className="text-gray-700 mb-4">{project.Description}</p>
-            <a href={project.Link} target="_blank" rel="noopener noreferrer">
+            <Link to={project.Link} target="_blank" rel="noopener noreferrer">
               <button className="h-10 px-6 font-semibold rounded-md bg-black text-white" type="button">
                 Visit
               </button>
-            </a>
+            </Link>
           </div>
          </Zoom>
         ))}

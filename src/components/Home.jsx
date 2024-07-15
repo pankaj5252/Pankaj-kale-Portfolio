@@ -1,18 +1,19 @@
+// Home.js
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Slide, Zoom } from "react-awesome-reveal";
 import About from "./About";
-import Resume from "./Resume"
-import Services from "./Services"
-import { Link as ScrollLink } from 'react-scroll';
+import Resume from "./Resume";
+import Services from "./Services";
+import { Link as ScrollLink } from "react-scroll";
 import Projects from "./Projects";
 import Contact from "./Contact";
-
+import ScrollToTop from "./ScrollToTop"; // Import the ScrollToTop component
 
 const Home = (props) => {
   return (
     <>
-      {/* Home Page  */}
+      {/* Home Page */}
       <div className="container-fluid pt-5 pb-4">
         <div className="row">
           <div className="col-md-6">
@@ -49,20 +50,23 @@ const Home = (props) => {
         </div>
       </div>
 
-      {/* About  */}
+      {/* About */}
       <About />
 
       {/* Resume */}
-      <Resume/>
+      <Resume />
 
-      {/* Projects  */}
-      <Projects/>
+      {/* Projects */}
+      <Projects />
 
-      {/* Services  */}
-      <Services/>
+      {/* Services */}
+      <Services />
 
       {/* Contact */}
-      <Contact/>
+      <Contact />
+
+      {/* Scroll to Top Button */}
+      <ScrollToTop />
     </>
   );
 };
