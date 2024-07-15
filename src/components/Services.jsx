@@ -9,7 +9,7 @@ const Services = () => {
       <section id="services" className="services py-8">
         <div className="text-center mb-12">
           <h2 className="titlefont mb-4">Services</h2>
-          <p className="text-gray-600">
+          <p className="text-gray-600 font-semibold">
             Magnam dolores commodi suscipit. Necessitatibus eius
             consequatur ex aliquid fuga eum quidem. Sit sint consectetur
             velit. Quisquam quos quisquam cupiditate. Et nemo qui

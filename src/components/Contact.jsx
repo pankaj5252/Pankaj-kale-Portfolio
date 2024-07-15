@@ -9,7 +9,7 @@ const Contact = () => {
           <div className="container mx-auto px-4" data-aos="fade-up">
             <div className="section-title text-center">
               <h2 className="titlefont">Contact</h2>
-              <p className="mt-4">
+              <p className="mt-4 font-semibold">
                 Welcome to our contact page! We value your feedback, inquiries,
                 and suggestions. Whether you have a question about our products or
                 services, need technical support, or want to share your thoughts
