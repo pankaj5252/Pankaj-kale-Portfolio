@@ -8,25 +8,12 @@ const Footer = () => {
       <Zoom>
         <hr />
         <div className="container text-center">
-          <div className="copyright">
-            &copy; Copyright{" "}
-            <strong>
-              <span>Pankaj</span>
-            </strong>
-            . All Rights Reserved
-          </div>
           <div className="header-social-links">
             <a className="github" href="https://github.com/pankaj5252" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-github"></i>
             </a>
             <NavLink className="twitter">
               <i className="fa fa-twitter"></i>
-            </NavLink>
-            <NavLink
-              to="https://instagram.com/pankaj_kale_96k?igshid=MzNlNGNkZWQ4Mg== "
-              className="instagram"
-            >
-              <i className="fa-brands fa-instagram"></i>
             </NavLink>
             <NavLink
               to="https://www.linkedin.com/in/pankaj-kale-pk5151"

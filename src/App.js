@@ -1,27 +1,36 @@
-import './App.css';
-import './components/style.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PageNotFound from './components/PageNotFound';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import LoadingScreen from './components/LoadingScreen';
-import { useState, useEffect } from 'react';
-import { Link as Element } from 'react-scroll';
-import boy from "./assets/boy1.png"
+import boyImage from './assets/boy1.png';
+
 
 function App() {
-  const [boy1, setBoy] = useState();
-
-  const getImage = () => {
-    setBoy(boy);
-  };
+  const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
-    getImage();
+    const loadImage = () => {
+      return new Promise((resolve, reject) => {
+        const image = new Image();
+        image.src = boyImage;
+        image.onload = () => resolve();
+        image.onerror = () => reject();
+      });
+    };
+
+    Promise.all([loadImage()])
+      .then(() => {
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error('Error loading assets:', error);
+        setLoading(false);
+      });
   }, []);
 
-  if (!boy1) {
+  if (isLoading) {
     return <LoadingScreen />;
   }
 
@@ -29,13 +38,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={
-            <>
-              <Element name="home">
-                <Home data={boy1}/>
-              </Element>
-            </>
-          } />
+          <Route path="/" element={<Home data={boyImage} />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer />

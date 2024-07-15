@@ -2,8 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import Projects from "../projects";
 import { Slide, Zoom } from "react-awesome-reveal";
-import { Link as ScrollLink } from 'react-scroll';
-import { Link } from "react-router-dom";
+import Resume1 from "../assets/resume.pdf";
 
 
 const Resume = () => {
@@ -14,7 +13,7 @@ const Resume = () => {
   return (
     <>
       <div id="top"></div>
-      <section id="resume" className="resume p-2 pt-5">
+      <section id="resume" className="resume p-2 pt-3">
         <div className="container" data-aos="fade-up">
           <div className="section-title text-center">
             <Zoom>
@@ -121,8 +120,7 @@ const Resume = () => {
                       </p>
                       <p className="p-0 m-0">
                         <b>Live</b> :-{" "}
-                        <ScrollLink to={project.Name} smooth={true}
-                          duration={400} className=" text-decoration-none fw-bold cursor-pointer">Click Here to See</ScrollLink>
+                        <a href={project.Link} target="_blank" className=" text-decoration-none fw-bold cursor-pointer">Click Here to See</a>
                       </p>
                       <p>
                         <b>Description</b> :- {project.Description}
@@ -135,8 +133,8 @@ const Resume = () => {
           </div>
           <div className="d-flex flex-column align-items-center mt-4">
             <a
-              href="../assets/resume.pdf"
-              className="h-10 px-6 font-semibold rounded-md bg-black text-white d-flex align-items-center justify-center text-decoration-none"
+              href={Resume1}
+              className="relative btn-about py-2 px-8 text-base font-bold nded-full overflow-hidden bg-red text-white rounded-full transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0"
               download
             >
               Download Resume
@@ -145,7 +143,6 @@ const Resume = () => {
 
         </div>
       </section>
-      <hr />
     </>
   );
 };

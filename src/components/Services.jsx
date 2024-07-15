@@ -23,7 +23,7 @@ const Services = () => {
             Serviceses.map((service, index) => (
               <div key={index} className="flex justify-center">
                 <Zoom>
-                  <div className="icon-box bg-white rounded-lg shadow-lg p-6">
+                  <div className="icon-box bg-white rounded-lg shadow-lg p-6 h-96">
                     <div className="icon mb-4">
                       <svg
                         width="100"
