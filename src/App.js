@@ -4,9 +4,8 @@ import PageNotFound from './components/PageNotFound';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import LoadingScreen from './components/LoadingScreen';
-import { useState, useEffect } from 'react';
-import { Link as Element } from 'react-scroll';
-import boy from "./assets/boy1.png"
+import boyImage from './assets/boy1.png';
+
 
 function App() {
   const [isLoading, setLoading] = useState(true);
