@@ -1,7 +1,27 @@
-import React from "react";
 import { Zoom } from "react-awesome-reveal";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_b8rjp53', 'template_d4owsc1', form.current, {
+        publicKey: 'W7K2LdsJqy3Rqg8Gj',
+      })
+      .then(
+        () => {
+        alert('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
   return (
     <>
       <section id="contact" className="contact p-3">
@@ -37,7 +57,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="col-lg-8 mt-5 mt-lg-0 w-full lg:w-2/3">
-                <form method="post" className="php-email-form">
+                <form ref={form} onSubmit={sendEmail} className="php-email-form">
                   <div className="row flex flex-wrap -mx-2">
                     <div className="col-md-6 w-full md:w-1/2 px-2 mb-4 md:mb-0">
                       <input
@@ -80,7 +100,7 @@ const Contact = () => {
                     ></textarea>
                   </div>
                   <div className="text-center">
-                    <button type="submit" className="btn bg-blue-500 text-white py-2 px-4 rounded mt-4">
+                    <button  type="submit" value="Send"  className="btn bg-blue-500 text-white py-2 px-4 rounded mt-4">
                       Send Message
                     </button>
                   </div>
