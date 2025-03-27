@@ -20,22 +20,7 @@ const projects = [
         Image: { Crud },
         Link: "https://crud-mern-blue.vercel.app/",
     },
-    {
-        id: "3",
-        Name: "Weather App",
-        Technologies: "HTML, CSS, Bootstrap, JavaScript",
-        Description: "Built a weather app integrating APIs to provide real-time updates for various locations, empowering users with instant access to current weather information and forecasts Built a weather app",
-        Image: { Weather },
-        Link: "https://pankaj5252.github.io/Weather-App/",
-    },
-    {
-        id: "4",
-        Name: "Personal Portfolio",
-        Technologies: "ReactJS, Bootstrap, CSS, HTML",
-        Description: "Designed a personal portfolio website highlighting projects, skills, and achievements, featuring links to GitHub projects and social media profiles",
-        Image: { Portfolio },
-        Link: "https://www.pankajkale.tech/",
-    }
+    
 ]
 
 export default projects;

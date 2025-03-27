@@ -50,18 +50,6 @@ const Resume = () => {
                 </div>
               </Slide>
               <Slide>
-                <h3 className="resume-title">Education</h3>
-                <div className="resume-item m-5">
-                  <h4>Master of Computer Applications (MCA)</h4>
-                  <h5>2023 - 2025</h5>
-                  <p>
-                    <em>Savitribai Phule Pune University</em>
-                  </p>
-                  <p>Siddhant Institute of Computer Application, Pune</p>
-                  <p>Appearing</p>
-                </div>
-              </Slide>
-              <Slide>
                 <div className="resume-item m-5">
                   <h4>Bachelor of Computer Applications (BCA - Sci)</h4>
                   <h5>2021 - 2023</h5>
@@ -88,7 +76,7 @@ const Resume = () => {
               <Slide direction="right">
                 <h3 className="resume-title">Professional Experience</h3>
                 <div className="resume-item m-5">
-                  <h4>‘Trainee Frontend Developer‘</h4>
+                  <h4>‘Frontend Developer ( Intern )‘</h4>
                   <h5>08 Aug 2023 - 08 Feb 2024</h5>
                   <p>
                     <em>A2Z INFOTECH PVT.LTD Ahmednagar</em>
